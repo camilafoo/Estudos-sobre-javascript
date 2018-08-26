@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    color:rgb(8, 7, 7);     
+}
+@font-face{
+  font-family: 'Roboto Mono', monospace;
+
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body{
+  background-image: url(../img/bolo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 1;
+}
+ul {
+ height: 100px;
+ padding: 23px;
+}
+h3{
+  background-color: white;
+  opacity: 0.5;
+  font-family:  'Roboto Mono', monospace;
+ height: 50px;
+ width: 100%;
+ text-align: center;
+}
+button{
+ font-size: 25px;
+   background: rgba(51, 228, 228, 0.747);
+color: green;
+border-radius: 5px;
+padding: 3px;
+border: unset;
+padding: 5px;
+}
+button:hover {
+  background-color: #4CAF50;
+  color: rgb(19, 19, 19);}
+input{
+  background-color: white;
+  opacity: 0.9;
+margin: 5px;
+color: green;
+border: 1px solid #80808087;
+margin-bottom: 10px;
+
+box-shadow: 3px 3px 3px #80808085;
+font-size: 25px;
+border-radius: 5px;
+padding: 3px;
+border: unset;
+}
+input:hover{
+ 
+  color: rgb(10, 10, 10);
+}
