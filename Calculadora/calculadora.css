@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    color:rgb(8, 7, 7); 
+}
+body{
+    background-image: url(../img/caculadora.jpg);
+   opacity: 1;
+}
+h1{
+    background-color: white;
+    opacity: 0.8;
+    font-family:  'Roboto Mono', monospace;
+   height: 50px;
+   width: 100%;
+   text-align: center;
+   font-size: 33px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .somar {
+      flex-direction: row;
+      margin-left: 50px;
+  }
+.subtração{
+    flex-direction: row;
+    margin-left: 106px;
+    }  
+    .multiplicar{
+        flex-direction: row;
+        margin-left: 131px;
+    }
+    .divisão{
+        flex-direction: row;
+        margin-left: 75px;
+    }
+    button{
+        font-size: 25px;
+          background: rgba(51, 228, 228, 0.747);
+       color: black;
+       border-radius: 5px;
+       padding: 3px;
+       border: unset;
+       padding: 5px;
+       }
+       button:hover {
+         background-color: #4CAF50;
+         color: rgb(19, 19, 19);}
+ input{  
+background-color: white;
+opacity: 0.9;
+margin: 5px;
+color: green;
+border: 1px solid #80808087;
+margin-bottom: 10px;
+box-shadow: 3px 3px 3px #80808085;
+font-size: 22px;
+border-radius: 5px;
+padding: 3px;
+border: unset;
+width: 100px;
+height: 57px;
+}
+
