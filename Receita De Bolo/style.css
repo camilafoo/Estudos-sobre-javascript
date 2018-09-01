@@ -18,7 +18,7 @@
   flex-direction: column;
 }
 body{
-  background-image: url(../img/bolo.jpg);
+  background-image: url(bolo.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   opacity: 1;
