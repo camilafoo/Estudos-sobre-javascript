@@ -1,0 +1,8 @@
+*{margin: 0; padding: 0; background-color: lightblue;}
+.container{	width: 100%; margin: auto; margin-top: 50px;}
+.bar-sup{width: 60%; display: flex;	justify-content: space-around;	margin: auto; margin-top: 5px; margin-bottom: 5px;}
+.thumb{ width: 100px;	height: 70px;}
+.thumb:hover{opacity: 0.5;}
+.imgBig{ width: 80%; margin: auto; display: flex; justify-content: space-around;}
+.imgBig img{ width: 600px; height: 400px;}
+.bar-inf{ width: 60%; display: flex; justify-content: space-around;	margin: auto; margin-top: 5px; margin-bottom: 5px;}

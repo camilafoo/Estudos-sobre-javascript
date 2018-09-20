@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<title>Álbum de Fotografia</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="bar-sup">
+			<img  src="img1.jpg" class="thumb" onclick="muda1();" > 
+			<img  src="img2.jpg" class="thumb" onclick="muda2();"> 
+			<img   src="img3.jpg" class="thumb" onclick="muda3();"> 
+			<img  src="img4.jpg" class="thumb" onclick="muda4();"> 
+			<img  src="img5.jpg" class="thumb" onclick="muda5();">  
+		</div>
+		<div class="imgBig">
+			<img src="img1.jpg" id="troca">
+		</div>
+		<div class="bar-inf">
+			<img  src="img6.jpg" class="thumb" onclick="muda6();"> 
+			<img   src="img7.jpg" class="thumb" onclick="muda7();"> 
+			<img    src="img8.jpg" class="thumb" onclick="muda8();"> 
+			<img  src="img9.jpg" class="thumb" onclick="muda9();"> 
+			<img  src="img10.jpg" class="thumb" onclick="muda10();">
+		</div>
+	</div>
+
+<script>
+function muda1 (){
+	document.getElementById('troca').src='img1.jpg';
+
+}
+function muda2 (){
+	document.getElementById('troca').src='img2.jpg';
+	
+}
+function muda3 (){
+	document.getElementById('troca').src='img3.jpg';
+	
+}
+function muda4 (){
+	document.getElementById('troca').src='img4.jpg';
+	
+}
+function muda5 (){
+	document.getElementById('troca').src='img5.jpg';
+	
+}
+function muda6 (){
+	document.getElementById('troca').src='img6.jpg';
+	
+}
+function muda7 (){
+	document.getElementById('troca').src='img7.jpg';
+	
+}
+function muda8 (){
+	document.getElementById('troca').src='img8.jpg';
+	
+}
+function muda9 (){
+	document.getElementById('troca').src='img9.jpg';
+	
+}
+function muda10 (){
+	document.getElementById('troca').src='img10.jpg';
+	
+}
+
+</script>
+
+</body>
+</html>
