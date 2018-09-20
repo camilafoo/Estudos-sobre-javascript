@@ -1,4 +1,9 @@
-*{margin: 0; padding: 0; background-color: lightblue;}
+*{margin: 0; padding: 0; }
+body{
+    background-image: url('../naruto.jpg');
+    background-size: 1500px;
+    background-repeat: no-repeat;  }
+
 .container{	width: 100%; margin: auto; margin-top: 50px;}
 .bar-sup{width: 60%; display: flex;	justify-content: space-around;	margin: auto; margin-top: 5px; margin-bottom: 5px;}
 .thumb{ width: 100px;	height: 70px;}
