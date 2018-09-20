@@ -1,9 +1,9 @@
 function muda1 (){
-	document.getElementById('troca').src='img1.jpg';
+	document.getElementById('troca').src='img1n.png';
 
 }
 function muda2 (){
-	document.getElementById('troca').src='img2.jpg';
+	document.getElementById('troca').src='img2n.jpg';
 	
 }
 function muda3 (){
