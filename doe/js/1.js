@@ -1,5 +1,5 @@
 function mudaImagem(){
-    document.getElementById('muda').src='imagens/img6.png';
+    document.getElementById('muda').src='imagens/imagem1.jpg';
 }
 function voltarImg(){
     document.getElementById('muda').src='imagens/imagem2.jpg';
