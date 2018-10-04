@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ranking</title>
+</head>
+<body>
+    <script>
+        var post, pos;
+        post=prompt('DIGITE QUANTOS PONTOS VOCÊ FEZ:');
+
+        if(post>=1000){
+   pos=1;
+        }else if(post>=800){
+            pos=2;
+        }else if (post>=300){
+            pos=3;
+        }else{
+            pos=0;
+        }
+        switch(pos){
+            case 1:
+            document.write("SUA PONTUAÇÃO FOU: " + '<br>' + post + '<br>' );
+        document.write('MEDALHA: OURO');
+        break;
+
+        case 2:
+            document.write("SUA PONTUAÇÃO FOU: " + '<br>' + post + '<br>' );
+        document.write('MEDALHA: PRATA');
+        break;
+
+        case 3:
+            document.write("SUA PONTUAÇÃO FOU: " + '<br>' + post + '<br>' );
+        document.write('MEDALHA: BRONZE');
+        break;
+
+        default: 
+        document.write("FORA DO PÓDIO");
+        }
+  </script>
+</body>
+</html>
