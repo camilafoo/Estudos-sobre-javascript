@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Doação</title>
+</head>
+
+<body>
+    <script>
+        var nome = prompt("Informe seu nome");
+      var  idade = prompt('Informe sua idade');
+      var  altura = prompt("Informe sua altura");
+      var  peso = prompt('Informe seu peso');
+      var  status;
+        if (idade >= 18 && altura >= 1.60 && peso > 50) {
+            var status = "Doadorrrrrrrrr"
+            document.write("<hr>");
+            document.write("NOME: " + nome + "<br>");
+            document.write("IDADE: " + idade + "<br>");
+            document.write("PESO: " + peso + "<br>");
+            document.write("ALTURA: " + altura + "<br>");
+            document.write("STATUS: " + status);
+            document.write("<hr>");
+        } else {
+            var status = "Não pode doar"
+            document.write("<hr>");
+            document.write("NOME: " + nome + "<br>");
+            document.write("IDADE: " + idade + "<br>");
+            document.write("PESO: " + peso + "<br>");
+            document.write("ALTURA: " + altura + "<br>");
+            document.write("STATUS: " + status);
+            document.write("<hr>");
+        }
+    </script>
+</body>
+
+</html>
