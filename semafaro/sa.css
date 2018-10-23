@@ -1,0 +1,49 @@
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#semafaro{
+    background-color: rgb(68, 57, 57);
+    width: 500px;
+    height: 689px;
+    border-radius: 30px;
+}
+#verde{
+    background-color: green;
+    width: 208px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 136px;
+    margin-top: 28px;
+}
+#amarelo{
+    background-color: yellow;
+    width: 208px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 136px;
+    margin-top: 23px;
+   }
+   #vermelho{
+    background-color:red;
+    width: 208px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 136px;
+    margin-top: 29px;
+}
+h1{
+    color: rgb(70, 67, 67);
+    font-size: 30px;
+    text-align: center;
+}
+h4{
+    color: rgb(70, 67, 67);
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
