@@ -6,21 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Idade</title>
+    <link rel="stylesheet" href="./css.css">
+    <script src="./js.js"></script>
+
 </head>
 
 <body>
-    <SCRipt>
-        var idade, nome;
+    <h1>Fomulário pra saber se é maior de idade</h1>
+    
+    <div class="container">
+   <form action="enviar.php" name="formuser" method="POST">
+       Nome: <input type="text" name="nome"><br><br>
+       Idade: <input type="text" name="idade"><br><br>
+        <input class="but" type="submit" onclick="return validar() ">
 
-        idade = 18
-        nome = prompt("QUAL SEU NOME?");
-        idade = prompt("QUANTOS ANOS VOCÊ TEM?");
-        if (idade >= 18) {
-            document.write(nome + "," + " VOCÊ È MAIOR DE IDADE" + "<br>");
-        } else {
-            document.write(nome + "," + " VOCÊ È MENOR DE IDADE");
-        }
-    </SCRipt>
+   </form>
+</div>
 </body>
 
 </html>

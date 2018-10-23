@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    justify-content: center;
+    color: green;
+}
+h1{
+    color: green;
+    text-align: center;
+}
+.but{
+    border: none;
+    width: 85px;
+    height: 42px;
+    color: green;
+    background-color: rgb(63, 60, 60);
+    font-size: 25px;
+}
+form{
+    font-size: 25px;
+}
+form input{
+    width: 153px;
+    height: 25px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px;
+}
